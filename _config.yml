@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "TunaMeatball"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "TunaMeatball's **Notepad**"
+  bio              : "TunaMeatball's **Memo**"
 #   location         : "Somewhere"
   email            :
   links:
