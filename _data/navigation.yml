@@ -13,7 +13,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
+sidecategories:
   - title: Notepad for coding
     children:
       - title: "Android"
@@ -22,4 +22,4 @@ docs:
   - title: Notepad for others
     children:
       - title: "Others"
-        url: /categories/others
+        url: /categories/others/
