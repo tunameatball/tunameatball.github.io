@@ -12,3 +12,14 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  docs:
+    - title: Notepad for coding
+      children:
+        - title: "Android"
+          url: /categories/android/
+    
+    - title: Notepad for others
+      children:
+        - title: "Others"
+          url: /categories/others
