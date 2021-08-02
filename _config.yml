@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "TunaMeatball"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This is Notepad for coding, etc."
+  bio              : "This is Notepad for programming, etc."
   location         : "South Korea"
   email            : 
   links:
