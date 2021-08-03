@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "This is Notepad"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "TunaMeatball's Programming Notepad"# site tagline that appears below site title in masthead
 name                     : "TunaMeatball"
 description              : "This is Notepad for programming, etc."
 url                      : "https://tunameatball.github.io"
