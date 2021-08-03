@@ -290,11 +290,3 @@ defaults:
       sidebar:
         nav: "side"
   
-  # category
-  - scope:
-      path: "_categories"
-      type: category
-    values:
-      author_profile: true
-      sidebar:
-        nav: "side"

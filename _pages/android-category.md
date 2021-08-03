@@ -3,6 +3,8 @@ title: "Android Category"
 permalink: /categories/android/
 layout: category
 author_profile: true
+sidebar:
+    nav: "side"
 taxonomy: android
 ---
 
