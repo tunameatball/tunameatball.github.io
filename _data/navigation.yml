@@ -18,3 +18,8 @@ side:
     children: 
       - title: "Android"
         url: /categories/android
+
+  - title: "Others"
+    children:
+      - title: "others"
+        url: /categories/others

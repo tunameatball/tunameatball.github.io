@@ -288,4 +288,4 @@ defaults:
       share:  true
       related: false
       sidebar:
-        nav: "main"
+        nav: "side"
