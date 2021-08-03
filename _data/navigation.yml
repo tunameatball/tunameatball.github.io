@@ -12,3 +12,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+side:
+  - title: "Programming"
+    children: 
+      - title: "Android"
+        url: /categories/android
