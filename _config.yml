@@ -289,4 +289,6 @@ defaults:
       related: false
       sidebar:
         nav: "side"
+      toc: true
+      toc_sticky: true
   
