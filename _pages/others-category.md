@@ -1,5 +1,5 @@
 ---
-title: "Others Category"
+title: "Others"
 permalink: /categories/others/
 layout: category
 author_profile: true
