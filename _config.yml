@@ -289,3 +289,16 @@ defaults:
       related: false
       sidebar:
         nav: "side"
+  
+  # categories
+  - scope:
+      path: ""
+      type: categories
+    values:
+      author_profile: true
+      read_time: false
+      comments: false
+      share:  true
+      related: false
+      sidebar:
+        nav: "side"
