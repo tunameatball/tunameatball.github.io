@@ -286,6 +286,7 @@ defaults:
       read_time: false
       show_date: true
       comments: false
+      published: true
       share:  true
       related: false
       sidebar:

@@ -4,6 +4,7 @@ title: [Rust] 두 개의 수 사이에 있는 숫자 세기
 excerpt: "a와 b사이에 k의 개수를 세는 프로그램"
 tag: [rust]
 categories: rust
+published: true
 typora-copy-images-to: ..\images\2021-08-04
 ---
 
