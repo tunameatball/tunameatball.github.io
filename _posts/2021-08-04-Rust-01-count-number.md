@@ -8,7 +8,7 @@ published: true
 typora-copy-images-to: ..\images\2021-08-04
 ---
 
-### 두 개의 수 사이에 있는 숫자 세기
+# 두 개의 수 사이에 있는 숫자 세기
 
 a와 b사이에 k의 개수를 세는 간단한 프로그램이다
 
@@ -24,7 +24,7 @@ a와 b사이에 k의 개수를 세는 간단한 프로그램이다
 
 
 
-##### 숫자 입력 받기
+## 숫자 입력 받기
 
 데이터를 입력 받기 위해 io::stdin()의 read_line(buf) 함수를 사용한다.
 
@@ -46,7 +46,7 @@ io::stdin().read_line(&mut inputString).expect("Wrong input");
 
 
 
-##### 입력 받은 데이터 변환
+## 입력 받은 데이터 변환
 
 입력 받은 데이터는 a b k 형식으로 데이터를 '  '(공백)을 기준으로 분할 할 필요가 있다
 
@@ -90,7 +90,7 @@ let findnum: u32 = match findnum.trim().parse(){
 
 
 
-##### 출력 값 구하고 출력하기
+## 출력 값 구하고 출력하기
 
 필요한 데이터가 모두 준비되었으니 우리가 원하는 값을 반환하는 함수를 만들면 된다.
 
@@ -130,7 +130,7 @@ println!("{} Number Count : {}", findnum, count);
 
 
 
-##### 프로그램 실행 결과
+## 프로그램 실행 결과
 
 ![image-20210804111807072](C:\Users\kh\Github_Repositories\tunameatball.github.io\images\2021-08-04\image-20210804111807072.png)
 
