@@ -9,7 +9,6 @@ published: true
 typora-copy-images-to: ..\images\2021-08-04
 ---
 
-# 두 개의 수 사이에 있는 숫자 세기
 
 a와 b사이에 k의 개수를 세는 간단한 프로그램이다
 
@@ -133,5 +132,5 @@ println!("{} Number Count : {}", findnum, count);
 
 ## 프로그램 실행 결과
 
-![image-20210804111807072](C:\Users\kh\Github_Repositories\tunameatball.github.io\images\2021-08-04\image-20210804111807072.png)
+![image-20210804111807072](..\images\2021-08-04\image-20210804111807072.png)
 
