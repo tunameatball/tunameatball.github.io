@@ -293,4 +293,9 @@ defaults:
         nav: "side"
       toc: true
       toc_sticky: true
+  # images
+  - scope:
+      path: "images"
+    values:
+      image: true
   
