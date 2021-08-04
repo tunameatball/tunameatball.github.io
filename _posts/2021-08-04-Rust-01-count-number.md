@@ -9,8 +9,9 @@ published: true
 typora-copy-images-to: ..\images\2021-08-04
 ---
 
+  
 
-a와 b사이에 k의 개수를 세는 간단한 프로그램이다
+a와 b사이에 k의 개수를 세는 간단한 프로그램
 
 `예)`
 
@@ -18,11 +19,9 @@ a와 b사이에 k의 개수를 세는 간단한 프로그램이다
 
 `출력 : 6`
 
+  
 
-
-프로그램은 loop를 이용해 전체 코드를 무한 루프
-
-
+  
 
 ## 숫자 입력 받기
 
@@ -30,7 +29,7 @@ a와 b사이에 k의 개수를 세는 간단한 프로그램이다
 
 .expect()를 이용해 예외 처리를 해 준다.
 
-
+  
 
 ```rust
 // 수 입력 받음
@@ -44,7 +43,9 @@ let mut inputString = String::new();
 io::stdin().read_line(&mut inputString).expect("Wrong input");
 ```
 
+  
 
+  
 
 ## 입력 받은 데이터 변환
 
@@ -57,7 +58,7 @@ io::stdin().read_line(&mut inputString).expect("Wrong input");
 let mut splitString: Vec<&str> = inputString.split(' ').collect();
 ```
 
-
+  
 
 우리가 필요한 데이터는 String 타입이 아닌 Integer타입이기 때문에 형 변환을 해준다.
 
@@ -88,7 +89,9 @@ let findnum: u32 = match findnum.trim().parse(){
 // 위 코드들은 for in 으로 묶으면 더 깔끔하게 될 것 같다.
 ```
 
+  
 
+  
 
 ## 출력 값 구하고 출력하기
 
@@ -118,7 +121,7 @@ fn countNumber(start_num: u32, end_num: u32, find_num: u32) -> u32{
 
 * 자릿수가 1자리만 남으면 반복문을 break 한다(current_num / 10 == 0)
 
-
+  
 
 이 함수를 이용하여 원하는 출력 값을 구하고 화면에 출력해 준다.
 
@@ -127,6 +130,78 @@ fn countNumber(start_num: u32, end_num: u32, find_num: u32) -> u32{
 let count: u32 = countNumber(startnum, endnum, findnum);
 println!("{} Number Count : {}", findnum, count);
 ```
+
+  
+
+  
+
+
+
+## Source Code
+
+```rust
+use std::io;
+fn main() {
+    loop{
+        // 수 입력 받음
+        println!("Please Input 3 numbers : ");
+        
+        // 입력 받은 수 담을 변수
+        let mut inputString = String::new();
+        
+        // 입력 받은 수 변수에 담음
+        io::stdin().read_line(&mut inputString).expect("Wrong input");
+        
+        // 입력 받은 수 분할
+        let mut splitString: Vec<&str> = inputString.split(' ').collect();
+        
+        // 분할 된 수 나눠 담기
+        let mut startnum = &splitString[0];
+        let mut endnum = &splitString[1];
+        let mut findnum = &splitString[2];
+
+        // 나눠 담은 string type의 수 u32로 변환
+        let startnum: u32 = match startnum.trim().parse(){
+            Ok(x) => x,
+            Err(_) => continue,
+        };
+
+        let endnum: u32 = match endnum.trim().parse(){
+            Ok(x) => x,
+            Err(_) => continue,
+        };
+        
+        let findnum: u32 = match findnum.trim().parse(){
+            Ok(x) => x,
+            Err(_) => continue,
+        };
+
+        let count = countNumber(startnum, endnum, findnum);
+        println!("{} Number Count : {}", findnum, count);
+    }
+}
+
+fn countNumber(start_num: u32, end_num: u32, find_num: u32) -> u32{
+    let mut count_num = 0;
+    for i in start_num..(end_num+1){
+        let mut current_num = i;
+        loop {
+            if current_num % 10 == find_num{
+                count_num = count_num + 1;
+            }
+
+            if current_num / 10 == 0{
+                break;
+            } else{
+                current_num /= 10;
+            }
+        }
+    }
+    count_num
+}
+```
+
+  
 
 
 
