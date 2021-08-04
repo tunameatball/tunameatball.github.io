@@ -132,5 +132,5 @@ println!("{} Number Count : {}", findnum, count);
 
 ## 프로그램 실행 결과
 
-![image-20210804111807072](./images/2021-08-04/image-20210804111807072.png)
+![image-20210804111807072](../images/2021-08-04/image-20210804111807072.png)
 
