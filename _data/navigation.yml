@@ -2,9 +2,6 @@
 main:
   - title: "Categories"
     url: /categories/
-    children: 
-      - title: "Android"
-        url: /categories/android
   - title: "Tags"
     url: /tags/
   # - title: "About"
