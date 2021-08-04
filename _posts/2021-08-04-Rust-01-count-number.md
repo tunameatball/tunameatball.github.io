@@ -1,6 +1,6 @@
 ---
 layout: single
-title: [Rust] 두 개의 수 사이에 있는 숫자 세기
+title: "[Rust] 두 개의 수 사이에 있는 숫자 세기"
 tag: [rust]
 categories: rust
 commnets: true
