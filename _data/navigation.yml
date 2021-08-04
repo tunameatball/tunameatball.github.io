@@ -20,6 +20,8 @@ side:
         url: /categories/android
       - title: "Rust"
         url: /categories/rust
+      - title: "Python"
+        url: /categories/python
 
   - title: "Others"
     children:
