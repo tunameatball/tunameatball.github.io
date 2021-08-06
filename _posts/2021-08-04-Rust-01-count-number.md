@@ -1,6 +1,7 @@
 ---
 layout: single
-title: Rust. 두 개의 숫자 사이에 있는 숫자 세기
+title: "[Rust] 두 개의 숫자 사이에 있는 숫자 세기"
+excerpt: "숫자 a, b, k 를 입력 받아 a와 b사이에 k의 개수를 출력하는 간단한 프로그램"
 tag: [rust]
 categories: rust
 commnets: true
