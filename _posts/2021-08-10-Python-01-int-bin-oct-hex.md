@@ -38,7 +38,7 @@ hexa = hex(number)
 print("%s, %s, %s" % (binary, octal, hexa))
 ```  
 
-* 실행 결과
+실행 결과
 ```
 0b1010010, 0o122, 0x52
 ```
@@ -60,7 +60,7 @@ hexa = int('0xFA21BC', 16)
 
 print("%d, %d, %d" % (binary, octal, hexa))
 ```
-* 실행 결과
+실행 결과
 ```
 59, 9074, 16392636
 ```
@@ -83,7 +83,7 @@ hexa = format(number, '#x')
 
 print("%s, %s, %s" % (binary, octal, hexa))
 ```
-* 실행 결과
+실행 결과
 ```
 0b1010010, 0o122, 0x52
 ```
