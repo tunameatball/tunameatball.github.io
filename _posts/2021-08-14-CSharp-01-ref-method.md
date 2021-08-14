@@ -80,7 +80,7 @@ x:4, y:3
 
 방법은 ref로 메소드를 선언하고 return 문이 반환하는 변수 앞에도 ref 키워드를 작성하면 된다.
 
-```C#
+```c#
 class SomeClass
 {
     int number = 10;
@@ -104,7 +104,7 @@ class SomeClass
 
 
 
-```C#
+```c#
 // getNumber메소드는 참조를 리턴하도록 구현됐지만, 호출자가 특별한 키워드를 사용하지 않으면 값을 리턴하는 메소드처럼 동작한다.
 SomeClass c1 = new SomeClass();
 int result1 = c1.getNumber();
