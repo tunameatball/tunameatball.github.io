@@ -36,7 +36,7 @@ C#에서는 ref 키워드를 이용해 참조 매개변수를 전달할 수 있�
 
 아래는 a와 b의 데이터를 바꾸는 Swap메소드 예시이다.
 
-```C#
+```c#
 static void Swap(ref int a, ref int b)
 {
 	int temp = b;
