@@ -22,6 +22,8 @@ side:
         url: /categories/rust
       - title: "Python"
         url: /categories/python
+      - title: "C#"
+        url: /categories/csharp
 
   - title: "Others"
     children:
