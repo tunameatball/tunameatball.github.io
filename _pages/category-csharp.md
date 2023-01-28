@@ -8,4 +8,4 @@ sidebar:
 taxonomy: csharp
 ---
 
-**This is C#**
+**C#**

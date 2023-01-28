@@ -8,4 +8,4 @@ sidebar:
 taxonomy: others
 ---
 
-**This is Others**
+**Others**

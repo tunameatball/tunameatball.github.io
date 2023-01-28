@@ -8,4 +8,4 @@ sidebar:
 taxonomy: android
 ---
 
-**This is Android**
+**Android**

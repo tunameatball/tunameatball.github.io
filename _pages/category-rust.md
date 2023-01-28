@@ -8,4 +8,4 @@ sidebar:
 taxonomy: rust
 ---
 
-**This is Rust**
+**Rust**

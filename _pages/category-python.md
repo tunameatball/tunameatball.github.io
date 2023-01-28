@@ -8,4 +8,4 @@ sidebar:
 taxonomy: python
 ---
 
-**This is Python**
+**Python**
