@@ -152,3 +152,7 @@ mLeftRecyclerView.addOnItemTouchListener(new RecyclerView.OnItemTouchListener() 
 ```xml
 android:splitMotionEvents="false"
 ```
+
+<br />
+
+출처 : [https://stackoverflow.com/questions/30702726/sync-scrolling-of-multiple-recyclerviews](https://stackoverflow.com/questions/30702726/sync-scrolling-of-multiple-recyclerviews)
