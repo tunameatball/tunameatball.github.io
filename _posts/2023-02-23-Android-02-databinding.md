@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Android] DataBinding"
-excerpt: "Android DataBinding 기본 정ㅣ"
+excerpt: "Android DataBinding 기본 정리"
 tag: [Android]
 categories: android
 commnets: true
