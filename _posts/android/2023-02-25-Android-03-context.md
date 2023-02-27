@@ -7,6 +7,10 @@ categories: android
 commnets: true
 author_profile: true
 published: true
+
+sitemap :	
+  changefreq : daily	
+  priority : 1.0	
 ---
 
 
